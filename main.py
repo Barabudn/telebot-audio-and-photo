@@ -1,7 +1,7 @@
 
 import telebot
 import cv2
-token = '5858896565:AAGrV05Mt5K1DBCr17lPDGrBz_2XlvVuX1w'
+token = 'Ваш токен'
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(content_types=['voice'])
